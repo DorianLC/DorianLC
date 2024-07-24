@@ -1,16 +1,32 @@
-## Hi there 👋
+# 👋 Hi, I’m @DorianLC
 
-<!--
-**DorianLC/DorianLC** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🔭 I’m currently working on [PYTRO](https://github.com/Danette10/PYTRO-api)
+- 🎓 Pursuing a Bachelor's degree in Cybersecurity at ESGI.
+- 🐱‍💻 Member of the university's Hacklab.
+- 💬 Ask me about software development and open source
+- 📫 How to reach me: [dorian.lrc@protonmail.com](mailto:dorian.lrc@protonmail.com)
 
-Here are some ideas to get you started:
+## 🛠 Technologies & Tools
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Languages: Python, JavaScript, HTML, CSS, PHP, C, Powershell, Bash
+- Tools: Git, Docker, VS Code, Cisco, TCP/IP, VLAN, DNS, DHCP, VPN
+- Databases: MySQL, OracleSQL, Firebase
+- Cloud: OVH, AWS, Azure
+- Firewall: Pfsense, Sonicwall, Unifi
+- Supervision: Solarwinds RMM, Datto RMM, Autotask
+- Backup: Synology
+
+## 📈 GitHub Stats
+
+![DorianLC's GitHub stats](https://github-readme-stats.vercel.app/api?username=DorianLC&show_icons=true&theme=radical)
+
+### Certifications
+
+- Cisco CCNA 1, 2, 3
+- ESET Technique niveau 1
+- TOEIC ETS Global 
+
+## 🤝 Check out my colleagues' GitHub profiles
+
+- [Danette10](https://github.com/Danette10)
+- [MamadouMakadji](https://github.com/mamadoumakadji)
