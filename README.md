@@ -9,7 +9,6 @@
 ## 🛠 Technologies & Tools
 
 - Languages: Python, JavaScript, HTML, CSS, PHP, C, Powershell, Bash
-- Tools: Git, Docker, VS Code, Cisco, TCP/IP, VLAN, DNS, DHCP, VPN
 - Databases: MySQL, OracleSQL, Firebase
 - Cloud: OVH, AWS, Azure
 - Firewall: Pfsense, Sonicwall, Unifi
