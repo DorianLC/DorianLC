@@ -29,3 +29,8 @@
 
 - [Danette10](https://github.com/Danette10)
 - [MamadouMakadji](https://github.com/mamadoumakadji)
+
+- ## 🐍 
+
+![Snake animation](https://github.com/DorianLC/sneakysnake/blob/output/github-snake.svg)
+
