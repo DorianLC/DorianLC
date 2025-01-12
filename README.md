@@ -7,7 +7,6 @@
 - 📫 How to reach me: [dorian.lrc@protonmail.com](mailto:dorian.lrc@protonmail.com)
 
 ## 🛠 Technologies & Tools
-### 🛠️ My Skills
 
 #### 📚 Base de données
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
