@@ -30,7 +30,7 @@
 - [Danette10](https://github.com/Danette10)
 - [MamadouMakadji](https://github.com/mamadoumakadji)
 
-### 🐍
+### 🐍 My Contributions Snake
 ![Snake animation](https://github.com/DorianLC/DorianLC/blob/output/github-snake-dark.svg)
 
 
