@@ -38,7 +38,7 @@
 
 ## 📈 GitHub Stats
 
-![DorianLC's GitHub stats](https://github-readme-stats.vercel.app/api?username=DorianLC&show_icons=true&theme=radical&count_private=true)
+![DorianLC's GitHub stats](https://github-readme-stats-ten-iota-65.vercel.app/api?username=DorianLC&show_icons=true&theme=radical&count_private=true)
 
 
 ### Certifications
