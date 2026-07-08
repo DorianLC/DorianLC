@@ -1,0 +1,57 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-cards:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub statistics
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=DorianLC&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=070B12&title_color=FF4D4D&text_color=E6EDF3&icon_color=FF2E2E
+          path: profile/github-stats.svg
+          token: ${{ secrets.PRIV_REPO }}
+
+      - name: Generate most used languages
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=DorianLC&layout=compact&langs_count=8&card_width=360&hide_border=true&bg_color=070B12&title_color=FF4D4D&text_color=E6EDF3&custom_title=Most%20Used%20Languages&size_weight=0.5&count_weight=0.5
+          path: profile/top-languages.svg
+          token: ${{ secrets.PRIV_REPO }}
+
+      - name: Generate PYTRO card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=Danette10&repo=PYTRO-api&hide_border=true&bg_color=070B12&title_color=FF4D4D&text_color=E6EDF3&icon_color=FF2E2E
+          path: profile/pytro.svg
+          token: ${{ secrets.PRIV_REPO }}
+
+      - name: Generate Chaos Must Die card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=Danette10&repo=Chaos-must-Die-API&hide_border=true&bg_color=070B12&title_color=FF4D4D&text_color=E6EDF3&icon_color=FF2E2E
+          path: profile/chaos-must-die.svg
+          token: ${{ secrets.PRIV_REPO }}
+
+      - name: Commit generated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update README cards" || exit 0
+          git push
